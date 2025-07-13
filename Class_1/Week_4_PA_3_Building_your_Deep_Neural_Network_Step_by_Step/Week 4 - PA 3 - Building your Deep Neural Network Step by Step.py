@@ -768,7 +768,7 @@ def predict(X, y, parameters):
 """
 我们来构建多层神经网络
 """
-#layers_dims = [12288, 20, 7, 5, 1] #  5层模型
+# layers_dims = [12288, 20, 7, 5, 1] #  5层模型
 def L_layer_model(X, Y, layers_dims, learning_rate=0.0075, num_iterations=3000, print_cost=False,isPlot=True): #lr was 0.009
     """
     实现一个L层神经网络：[LINEAR-> RELU] *（L-1） - > LINEAR-> SIGMOID。
